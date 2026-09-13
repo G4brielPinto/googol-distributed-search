@@ -1,0 +1,24 @@
+# Build artefacts and local databases
+target/
+**/target/
+*.class
+*.jar
+*.war
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Local configuration and credentials
+.env
+.env.*
+*.env
+application-local.properties
+config-local.properties
+
+# IDE and operating-system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
